@@ -20,4 +20,4 @@ How to use on MacOS?
         </plist>
 3) Copy .plist file to launchd dir
 4) Load script into launchd using command:
-    'launchctl load /path/to/your/plistfile.plist'
+    ```launchctl load /path/to/your/plistfile.plist```
