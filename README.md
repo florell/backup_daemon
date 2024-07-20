@@ -1,5 +1,5 @@
-Для работы демона в системе MacOS необходимо:
-1) Создать .plist файл по следующему шаблону (замените /path/to/your/* на актуальные пути)
+How to use on MacOS?
+1) Create .plist file using this template (change /path/to/your/* to actual paths)
    <?xml version="1.0" encoding="UTF-8"?>
         <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
         <plist version="1.0">
@@ -18,5 +18,6 @@
               <string>/path/to/your/error.log</string>
           </dict>
         </plist>
-3) Скопируйте .plist файл в папку launchd
-4) Загрузите скрипт в launchd используя комманду 'launchctl load /path/to/your/plistfile.plist'
+3) Copy .plist file to launchd dir
+4) Load script into launchd using command:
+    'launchctl load /path/to/your/plistfile.plist'
